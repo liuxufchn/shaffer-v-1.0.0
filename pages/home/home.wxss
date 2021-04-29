@@ -1,0 +1,49 @@
+
+.top-theme {
+    width: 100%;
+    height: 260rpx;
+    display: flex;
+}
+
+.swiper {
+    width: 100%;
+    height: 360rpx;
+}
+
+.activity {
+    width: 100%;
+    height: 310rpx;
+    margin-top: 20rpx;
+    margin-bottom: 20rpx;
+}
+
+.quality {
+    margin-top: 20rpx;
+    margin-bottom: 20rpx;
+    width: 100%;
+    height: 800rpx;
+    display: flex; /* 清除图片自带的边距 */
+}
+
+.fashion {
+    width: 100%;
+    height: 840rpx;
+    margin-top: 20rpx;
+    display: flex;
+}
+
+.title-spu-bottom {
+    width: 690rpx;
+    height: 70rpx;
+    display: flex;
+    margin-bottom: 38rpx;
+}
+
+.spu-bottom {
+    margin-top: 20rpx;
+    padding-top: 30rpx;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

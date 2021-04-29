@@ -1,0 +1,20 @@
+
+
+function mainPrice(price, discountPrice) {
+    if (!discountPrice) {
+        return price;
+    }
+    return discountPrice;
+}
+
+function dashedPrice(price, discountPrice) {
+    if (discountPrice) {
+        return price;
+    }
+    return null;
+}
+
+module.exports = {
+    mainPrice: mainPrice,
+    dashedPrice: dashedPrice
+}

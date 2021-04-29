@@ -18,6 +18,14 @@
                     deleted
                     value="{{p.dashedPrice(data.price, data.discount_price)}}">
             </l-price>
+<!--            <l-price-->
+<!--                    color="#999999"-->
+<!--                    size="26"-->
+<!--                    l-class="discount-price"-->
+<!--                    wx:if="{{data.discount_price || data.price}}"-->
+<!--                    deleted-->
+<!--                    value="{{data.price}}">-->
+<!--            </l-price>-->
             <l-price
                     color="#157658"
                     value-size="28"

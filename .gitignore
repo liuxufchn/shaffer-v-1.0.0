@@ -1,2 +1,4 @@
 # Project exclude paths
 /node_modules/
+/miniprogram_npm/
+/pages/config/config.js

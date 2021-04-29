@@ -4,5 +4,12 @@ Component({
         spuList: Array
     },
     data: {},
-    methods: {}
+    methods: {
+        onImgTap(event) {
+            const pid = event.currentTarget.dataset.pid;
+            wx.navigateTo({
+                url: '/pages/detail/detail?pid=' + pid
+            })
+        }
+    }
 });
